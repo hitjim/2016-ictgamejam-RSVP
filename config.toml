@@ -41,6 +41,9 @@ googleAnalytics = ""
 	# Navigation
 	[params.navigation]
 		brand = "July 15-17 2016"
+		event = "Event"
+		schedule = "Schedule"
+		help = "Help!"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
@@ -73,9 +76,95 @@ googleAnalytics = ""
 		buttonText = "What's a game jam?"
 
 
+	# Event section
+	[params.event]
+        enable = true
+		title = "It's a PARTY"
+		subtitle = "Ok, **technically** it's a competition with cash prizes.  It's not a workshop or a class about making games.  But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
+
+        [[params.event.row]]
+
+						[[params.event.row.list]]
+								icon = "fa-gamepad"
+								title = "Do I need to have made a game before?"
+								description = "Last year, over 60% of participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
+
+            [[params.event.row.list]]
+                icon = "fa-code"
+                title = "Do I need to be a programmer?"
+                description = "No!  Games also need artists, writers, and designers.  There is no rule for whether your game must be 2D, 3D, complex, or even have graphics."
+
+            [[params.event.row.list]]
+                icon = "fa-laptop"
+                title = "Do I need a computer?"
+                description = "While it's best to bring your own, there will even be computers available, just bring something for saving your work!  For those who bring their own, your desk will have 2 external monitors."
+
+						[[params.event.row.list]]
+                icon = "fa-heart"
+                title = "I love it! I must know more!"
+                description = "If you insist!  The event is generously hosted at [NCAT](http://ncatkansas.org/).  We will have snacks, drinks and T-shirt waiting for you!  All meals on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP]() and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
+
+
+	# Schedule timeline
+	[params.schedule]
+	      enable = true
+		title = "Schedule"
+		subtitle = "Great!  Now that you're going to the game jam, here's how the weekend will go..."
+		endpoint = "Keep<br>making<br>games!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.schedule.events]]
+			img= "1.jpg"
+			date = "Friday"
+			title = "Kickoff!"
+			description = "Doors open at 5pm, kickoff slides and intro start at 6pm.  Participants will receive an email to vote on the game jam's theme.  Those needing teams will have an opportunity to pitch ideas and form or join teams as necessary.  You can even work solo if you want.  Then it's time to start making games!"
+
+		[[params.schedule.events]]
+			img = "2.jpg"
+			date = "Saturday"
+			title = "Build Day!"
+			description = "Show up bright and early.  Enjoy refreshments, 3 meals and ... oh yeah... build a game!  Hit a wall?  Ask for help!  Lean on the volunteers and fellow game devs for feedback and encouragement!"
+
+		[[params.schedule.events]]
+			img = "3.jpg"
+			date = "Sunday"
+			title = "Polish, SHIP IT!!  Community Play.  Winners announced!"
+			description = "Put the finishing touches on your game.  Work stops at 1pm.  Doors open to the public 3 - 5pm to play your games and vote for Community Choice while the judges deliberate.  Winners announced at 5:30pm."
+
+	# help section
+	[params.help]
+        enable = true
+		title = "Help!"
+		subtitle = "The best way to help is to RSVP and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br><br>Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact ictgamejam@makeict.org.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+
+        [[params.help.row]]
+
+            [[params.help.row.list]]
+                icon = "fa-shopping-cart"
+                title = "Italian Plumber 1-1: $250"
+                description = "Thanks via ICT Game Jam (Twitter), MakeICT and devICT (Twitter, Facebook), twice before event.<br>Thanks at Friday kickoff presentation, and awards announcements on Sunday.<br>Logo or name on back of event T-shirt, and on 2016 event page.  Note: Inclusion on T-shirt requires sponsorship prior to July 1st 2016."
+
+            [[params.help.row.list]]
+                icon = "fa-laptop"
+                title = "Protein Mushroom: $500"
+                description = "Everything from Italian Plumber 1-1 package.<br>Display of provided promotional banner at event.<br>Inclusion of any desired promotional items or material in participants’ swag packs."
+
+            [[params.help.row.list]]
+                icon = "fa-lock"
+                title = "Invincibility: $1500"
+                description = "Everything in Protein Mushroom package.<br>Table space at event for provided promotional material.<br>Logo or name displayed in all event videos."
+
+						[[params.help.row.list]]
+                icon = "fa-lock"
+                title = "Blue Shell: $3000"
+                description = "Everything in Invincibility package.<br>Monthly thanks via social media through May 2017.<br>Table, banner space, and sponsorship thanks at 2 devICT Gamedev Build or Demo Days."
+
+
 	# Services section
 	[params.services]
-        enable = true
+        enable = false
 		title = "Services"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -98,7 +187,7 @@ googleAnalytics = ""
 
 	# Portfolio section
 	[params.portfolio]
-        enable = true
+        enable = false
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
@@ -113,9 +202,10 @@ googleAnalytics = ""
             buttonText = "Close project"
 
 
-    # About section
+  # About section
+
 	[params.about]
-        enable = true
+        enable = false
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
