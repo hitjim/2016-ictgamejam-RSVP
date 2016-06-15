@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://ictgamejam.github.io/"
+baseurl = "http://devict.github.io/ictgamejam/"
 languageCode = "en-us"
 title = "ICT Game Jam"
 theme = "hugo-agency-theme"
