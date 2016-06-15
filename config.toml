@@ -62,8 +62,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
+        url = "http://makeict.wildapricot.org/event-2267694"
+        name = "RSVP!"
         weight = 10
 
 
@@ -80,14 +80,14 @@ googleAnalytics = ""
 	[params.event]
         enable = true
 		title = "It's a PARTY"
-		subtitle = "Ok, **technically** it's a competition with cash prizes.  It's not a workshop or a class about making games.  But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company."
+		subtitle = "Ok, **technically** it's a competition with cash prizes.  It's not a workshop or a class about making games.  But if you want to spend a weekend learning gamedev and getting fed, you'll be in good company.<br><br><a href=\"http://makeict.wildapricot.org/event-2267694\" class=\"page-scroll btn btn-xl\">You should definitely RSVP</a>."
 
         [[params.event.row]]
 
 						[[params.event.row.list]]
 								icon = "fa-gamepad"
 								title = "Do I need to have made a game before?"
-								description = "Last year, over 60% of participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
+								description = "[Last year](http://devict.org/gamejam), over 60% of participants had little or no gamedev experience, but they had a blast.  We'll have lots of people willing to answer questions and help you learn at your own pace!"
 
             [[params.event.row.list]]
                 icon = "fa-code"
@@ -102,7 +102,7 @@ googleAnalytics = ""
 						[[params.event.row.list]]
                 icon = "fa-heart"
                 title = "I love it! I must know more!"
-                description = "If you insist!  The event is generously hosted at [NCAT](http://ncatkansas.org/).  We will have snacks, drinks and T-shirt waiting for you!  All meals on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP]() and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
+                description = "If you insist!  The event is generously hosted at [NCAT](http://ncatkansas.org/).  We will have snacks, drinks and T-shirt waiting for you!  All meals on Saturday, breakfast and lunch provided on Sunday.  All that's left is to [RSVP](http://makeict.wildapricot.org/event-2267694) and follow [@ICTGameJam](https://twitter.com/ICTGameJam)!"
 
 
 	# Schedule timeline
@@ -137,29 +137,29 @@ googleAnalytics = ""
 	[params.help]
         enable = true
 		title = "Help!"
-		subtitle = "The best way to help is to RSVP and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br><br>Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact ictgamejam@makeict.org.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
+		subtitle = "The best way to help is to [RSVP](http://makeict.wildapricot.org/event-2267694) and participate!  Otherwise we welcome volunteered time or talent in any amount before, during or after the event.<br><br>Finally, if you absolutely insist, here are some sponsorship packages to consider!  For all these, please contact ictgamejam@makeict.org.<br><br>This and all devICT gamedev events are operated under MakeICT, a 501c3 organization.  All donations are used to run this and future gamedev events."
 
         [[params.help.row]]
 
             [[params.help.row.list]]
-                icon = "fa-shopping-cart"
+                icon = "fa-wrench"
                 title = "Italian Plumber 1-1: $250"
-                description = "Thanks via ICT Game Jam (Twitter), MakeICT and devICT (Twitter, Facebook), twice before event.<br>Thanks at Friday kickoff presentation, and awards announcements on Sunday.<br>Logo or name on back of event T-shirt, and on 2016 event page.  Note: Inclusion on T-shirt requires sponsorship prior to July 1st 2016."
+                description = "<i class=\"fa fa-caret-right\"></i> Thanks via ICT Game Jam (Twitter), MakeICT and devICT (Twitter, Facebook), twice before event.<br><i class=\"fa fa-caret-right\"></i> Thanks at Friday kickoff presentation, and awards announcements on Sunday.<br><i class=\"fa fa-caret-right\"></i> Logo or name on back of event T-shirt, and on 2016 event page.  Note: Inclusion on T-shirt requires sponsorship prior to July 1st 2016."
 
             [[params.help.row.list]]
-                icon = "fa-laptop"
+                icon = "fa-arrow-up"
                 title = "Protein Mushroom: $500"
-                description = "Everything from Italian Plumber 1-1 package.<br>Display of provided promotional banner at event.<br>Inclusion of any desired promotional items or material in participants’ swag packs."
+                description = "<i class=\"fa fa-caret-right\"></i> Everything from Italian Plumber 1-1 package.<br><i class=\"fa fa-caret-right\"></i> Display of provided promotional banner at event.<br><i class=\"fa fa-caret-right\"></i> Inclusion of any desired promotional items or material in participants’ swag packs."
 
             [[params.help.row.list]]
-                icon = "fa-lock"
+                icon = "fa-star"
                 title = "Invincibility: $1500"
-                description = "Everything in Protein Mushroom package.<br>Table space at event for provided promotional material.<br>Logo or name displayed in all event videos."
+                description = "<i class=\"fa fa-caret-right\"></i> Everything in Protein Mushroom package.<br><i class=\"fa fa-caret-right\"></i> Table space at event for provided promotional material.<br><i class=\"fa fa-caret-right\"></i> Logo or name displayed in all event videos."
 
 						[[params.help.row.list]]
-                icon = "fa-lock"
+                icon = "fa-car"
                 title = "Blue Shell: $3000"
-                description = "Everything in Invincibility package.<br>Monthly thanks via social media through May 2017.<br>Table, banner space, and sponsorship thanks at 2 devICT Gamedev Build or Demo Days."
+                description = "<i class=\"fa fa-caret-right\"></i> Everything in Invincibility package.<br><i class=\"fa fa-caret-right\"></i> Monthly thanks via social media through May 2017.<br><i class=\"fa fa-caret-right\"></i> Table, banner space, and sponsorship thanks at 2 devICT Gamedev Build or Demo Days."
 
 
 	# Services section
@@ -240,7 +240,7 @@ googleAnalytics = ""
 
 	# Team section
 	[params.team]
-        enable = true
+        enable = false
 		title = "Our amazing team"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -280,29 +280,30 @@ googleAnalytics = ""
 	# Client section
     [params.clients_list]
         enable = true
+				title = "Our amazing sponsors"
+				subtitle = "Thanks for making this event possible!!"
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
     	[[params.clients]]
-    		logo = "envato.jpg"
-    		link = "#"
+    		logo = "devict_logo_260.png"
+    		link = "http://devict.org"
 
     	[[params.clients]]
-    		logo = "designmodo.jpg"
-    		link = "#"
+    		logo = "MakeICT-260.png"
+    		link = "http://makeict.org"
 
     	[[params.clients]]
-    		logo = "themeforest.jpg"
-    		link = "#"
+    		logo = "Storehouse-Logo-260.png"
+    		link = "https://sthse.co/"
 
     	[[params.clients]]
-    		logo = "creative-market.jpg"
-    		link = "#"
-
+    		logo = "ncat-logo-210.png"
+    		link = "http://ncatkansas.org"
 
 	# Contact section
 	[params.contact]
-        enable = true
+        enable = false
 		title = "Contact us"
 		subtitle  = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Send message"
@@ -332,20 +333,16 @@ googleAnalytics = ""
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "https://twitter.com/ICTGameJam"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
+			link = "https://www.facebook.com/developerict/"
 
 		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
+			text = "devICT"
+			link = "http://devict.org/"
 
 		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+			text = "Email ICT Game Jam"
+			link = "mailto:ictgamejam@makeict.org"
